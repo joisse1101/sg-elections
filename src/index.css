@@ -1,8 +1,17 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'Open_Sans';
+  src: url(./assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Open_Sans';
   line-height: 1.5;
   font-weight: 400;
-
   color: var(--text);
   background-color: var(--background);
 
@@ -28,8 +37,4 @@
   --primary: #CBD0EC;
   --secondary: #4594BF;
   --accent: #A41313;
-}
-
-body {
-  margin: none;
 }
