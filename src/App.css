@@ -6,6 +6,9 @@ nav {
   padding-inline: 50px;
 
   position: sticky;
+  top: 0;
+  background: transparent;
+  backdrop-filter: blur(10px);
 
   display: flex;
   height: 60px;
@@ -13,7 +16,7 @@ nav {
   gap: 20px;
 }
 
-nav>a {
+a {
   font-family: var(--font-header);
   font-weight: var(--weight-semibold);
   font-size: 14;
@@ -22,9 +25,16 @@ nav>a {
   text-transform: uppercase;
 }
 
-nav>a:hover {
+a:hover {
   text-decoration: underline;
   text-underline-offset: 2px;
   text-decoration-color: var(--text-400);
   color: var(--text-200);
+}
+
+div.page {
+  height: 90vh;
+  display: flex;
+  place-content: center;
+  place-items: center;
 }
