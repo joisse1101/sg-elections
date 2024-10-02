@@ -20,7 +20,7 @@ function Counter(contents: ICounter[]) {
 
 function CounterCard(content: ICounter) {
     return (
-        <div className="counter">
+        <div className="counter" key={'counter_' + content.label}>
             <h1>{content.content}</h1>
             <p>{content.label}</p>
         </div >
