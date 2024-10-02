@@ -3,13 +3,31 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: var(--text);
+  background-color: var(--background);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --text: #FEFCFE;
+  --text-100: #E5E3E5;
+  --text-200: #CBC9CB;
+  --text-300: #B2B0B2;
+  --text-400: #989698;
+  --text-500: #7F7D7F;
+
+  --background: #171914;
+  --background-500: #8B8C89;
+  --background-600: #747572;
+  --background-700: #5D5E5A;
+  --background-800: #454743;
+  --background-900: #2E302B;
+
+  --primary: #CBD0EC;
+  --secondary: #4594BF;
+  --accent: #A41313;
 }
 
 body {
