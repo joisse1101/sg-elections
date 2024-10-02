@@ -53,25 +53,29 @@
 
 /* width */
 ::-webkit-scrollbar {
-  width: .5vw;
+  width: 15px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
   background: var(--background);
-  padding: 100px;
 }
 
-/* Handle */
+/* scrollbar */
 ::-webkit-scrollbar-thumb {
-  background: var(--background-700);
-  border-radius: .25vw;
+  border: solid transparent;
+  border-radius: 999px;
+  border-width: 5px;
+  background-clip: padding-box;
+  background-color: var(--background-700);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--background-900);
+  background-color: var(--background-900);
 }
+
+body {}
 
 h1,
 h2,
