@@ -10,7 +10,6 @@ export type Electorate = {
     spoilt: number | null,
 }
 export type ElectionDate = {
-    year: number,
     startDate: Date,
     endDate: Date,
 }

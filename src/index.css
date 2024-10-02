@@ -59,3 +59,22 @@ h5,
 h6 {
   font-family: var(--font-heading);
 }
+
+h1 {
+  font-weight: var(--weight-regular);
+  font-size: 128px;
+}
+
+h6 {
+  font-weight: var(--weight-regular);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: var(--weight-extralight);
+  letter-spacing: 1px;
+}
