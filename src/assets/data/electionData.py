@@ -46,8 +46,8 @@ with open('ElectionData.tsx', "a") as tsxFile:
             startDate = row[1].split('/')
             endDate = row[2].split('/')
             tsxFile.write(f'\t{row[0]}: ' + '{\n')
-            tsxFile.write(f'\t\tstartDate: new Date({startDate[2]}, {startDate[0]}, {startDate[1]}),\n')
-            tsxFile.write(f'\t\tendDate: new Date({endDate[2]}, {endDate[0]}, {endDate[1]}),\n')
+            tsxFile.write(f'\t\tstartDate: new Date({startDate[2]}, {startDate[0]} - 1, {startDate[1]}),\n')
+            tsxFile.write(f'\t\tendDate: new Date({endDate[2]}, {endDate[0]} - 1, {endDate[1]}),\n')
             tsxFile.write('\t},\n')
             
         tsxFile.write('}\n')

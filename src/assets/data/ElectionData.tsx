@@ -5209,68 +5209,68 @@ export const electorates: Electorate[] = [
 ]
 export const electionDates: {[year: number]: ElectionDate} = {
 	1955: {
-		startDate: new Date(1955, 2, 28),
-		endDate: new Date(1955, 4, 2),
+		startDate: new Date(1955, 2 - 1, 28),
+		endDate: new Date(1955, 4 - 1, 2),
 	},
 	1959: {
-		startDate: new Date(1959, 4, 25),
-		endDate: new Date(1959, 5, 30),
+		startDate: new Date(1959, 4 - 1, 25),
+		endDate: new Date(1959, 5 - 1, 30),
 	},
 	1963: {
-		startDate: new Date(1963, 9, 12),
-		endDate: new Date(1963, 9, 21),
+		startDate: new Date(1963, 9 - 1, 12),
+		endDate: new Date(1963, 9 - 1, 21),
 	},
 	1968: {
-		startDate: new Date(1968, 2, 17),
-		endDate: new Date(1968, 4, 13),
+		startDate: new Date(1968, 2 - 1, 17),
+		endDate: new Date(1968, 4 - 1, 13),
 	},
 	1972: {
-		startDate: new Date(1972, 8, 23),
-		endDate: new Date(1972, 9, 2),
+		startDate: new Date(1972, 8 - 1, 23),
+		endDate: new Date(1972, 9 - 1, 2),
 	},
 	1976: {
-		startDate: new Date(1976, 12, 13),
-		endDate: new Date(1976, 12, 23),
+		startDate: new Date(1976, 12 - 1, 13),
+		endDate: new Date(1976, 12 - 1, 23),
 	},
 	1980: {
-		startDate: new Date(1980, 12, 13),
-		endDate: new Date(1980, 12, 23),
+		startDate: new Date(1980, 12 - 1, 13),
+		endDate: new Date(1980, 12 - 1, 23),
 	},
 	1984: {
-		startDate: new Date(1984, 12, 12),
-		endDate: new Date(1984, 12, 22),
+		startDate: new Date(1984, 12 - 1, 12),
+		endDate: new Date(1984, 12 - 1, 22),
 	},
 	1988: {
-		startDate: new Date(1988, 8, 24),
-		endDate: new Date(1988, 9, 3),
+		startDate: new Date(1988, 8 - 1, 24),
+		endDate: new Date(1988, 9 - 1, 3),
 	},
 	1991: {
-		startDate: new Date(1991, 8, 21),
-		endDate: new Date(1991, 8, 31),
+		startDate: new Date(1991, 8 - 1, 21),
+		endDate: new Date(1991, 8 - 1, 31),
 	},
 	1997: {
-		startDate: new Date(1996, 12, 23),
-		endDate: new Date(1997, 1, 2),
+		startDate: new Date(1996, 12 - 1, 23),
+		endDate: new Date(1997, 1 - 1, 2),
 	},
 	2001: {
-		startDate: new Date(2001, 10, 25),
-		endDate: new Date(2001, 11, 3),
+		startDate: new Date(2001, 10 - 1, 25),
+		endDate: new Date(2001, 11 - 1, 3),
 	},
 	2006: {
-		startDate: new Date(2006, 4, 27),
-		endDate: new Date(2006, 5, 6),
+		startDate: new Date(2006, 4 - 1, 27),
+		endDate: new Date(2006, 5 - 1, 6),
 	},
 	2011: {
-		startDate: new Date(2011, 4, 27),
-		endDate: new Date(2011, 5, 7),
+		startDate: new Date(2011, 4 - 1, 27),
+		endDate: new Date(2011, 5 - 1, 7),
 	},
 	2015: {
-		startDate: new Date(2015, 9, 1),
-		endDate: new Date(2015, 9, 11),
+		startDate: new Date(2015, 9 - 1, 1),
+		endDate: new Date(2015, 9 - 1, 11),
 	},
 	2020: {
-		startDate: new Date(2020, 6, 30),
-		endDate: new Date(2020, 7, 10),
+		startDate: new Date(2020, 6 - 1, 30),
+		endDate: new Date(2020, 7 - 1, 10),
 	},
 }
 export const electionYears = Object.keys(electionDates).map(function (year) { return parseInt(year) })
