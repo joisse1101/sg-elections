@@ -8,8 +8,8 @@ function App() {
 
       <nav>
         <Link to="/sg-elections/">Home</Link>
-        {" | "}
-        <Link to="/sg-elections/contact">Contact</Link>
+        <Link to="/sg-elections/data">Data</Link>
+        <Link to="/sg-elections/references">References</Link>
       </nav>
 
       <Outlet />

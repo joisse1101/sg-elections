@@ -1,3 +1,30 @@
-#root {
-  padding: 2rem;
+nav {
+  border-color: var(--background-900);
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+
+  padding-inline: 50px;
+
+  position: sticky;
+
+  display: flex;
+  height: 60px;
+  place-items: center;
+  gap: 20px;
+}
+
+nav>a {
+  font-family: var(--font-header);
+  font-weight: var(--weight-semibold);
+  font-size: 14;
+  color: var(--text);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav>a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: var(--text-400);
+  color: var(--text-200);
 }
