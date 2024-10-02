@@ -33,6 +33,10 @@ function Home() {
         ])}
         <h6>since the last parliamentary election</h6>
       </div>
+      <hr />
+      <div className="page">
+
+      </div>
     </>
   )
 }

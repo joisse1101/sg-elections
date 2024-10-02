@@ -51,6 +51,28 @@
   --weight-black: 900;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: .5vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--background);
+  padding: 100px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--background-700);
+  border-radius: .25vw;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--background-900);
+}
+
 h1,
 h2,
 h3,
@@ -58,6 +80,7 @@ h4,
 h5,
 h6 {
   font-family: var(--font-heading);
+  margin: 0;
 }
 
 h1 {
