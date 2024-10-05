@@ -75,8 +75,6 @@
   background-color: var(--background-900);
 }
 
-body {}
-
 h1,
 h2,
 h3,
@@ -92,11 +90,16 @@ h1 {
   font-size: 128px;
 }
 
-h6 {
+h2 {
+  font-weight: var(--weight-regular);
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+h3 {
   font-weight: var(--weight-regular);
   font-size: 12px;
   text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
 p {
@@ -104,4 +107,9 @@ p {
   font-size: 12px;
   font-weight: var(--weight-extralight);
   letter-spacing: 1px;
+}
+
+p.quote {
+  font-size: 30px;
+  font-weight: var(--weight-regular);
 }

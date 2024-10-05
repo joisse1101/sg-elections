@@ -19,7 +19,7 @@ div.counter {
     position: relative;
 }
 
-div.counter>p {
+div.counter>h3 {
     position: absolute;
     bottom: 5%;
     text-transform: uppercase;
