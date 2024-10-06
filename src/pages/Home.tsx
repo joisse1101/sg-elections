@@ -31,11 +31,16 @@ function Home() {
 
           }
         ])}
-        <h6>since the last parliamentary election</h6>
+        <h3>since the last parliamentary election</h3>
       </div>
       <hr />
       <div className="page">
-
+        <div style={{ textAlign: 'right' }}>
+          <p className="quote">
+            We are leaders. We know the consequences. You mean that ice-water man knows the consequences of his vote? They say people can think for themselves? Do you honestly believe that the chap who can't pass primary six knows the consequences of his choice when he answers a question viscerally on language, culture and religion?
+          </p>
+          <h2>Lee Kuan Yew, 1998</h2>
+        </div>
       </div>
     </>
   )
